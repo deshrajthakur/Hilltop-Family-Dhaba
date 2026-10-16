@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deshrajthakur.github.io/Hilltop-Family-Dhaba/sitemap.xml

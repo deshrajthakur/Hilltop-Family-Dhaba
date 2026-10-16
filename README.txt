@@ -1,22 +1,28 @@
-# Hilltop Family Dhaba – Vegetarian Menu & WhatsApp Ordering Website
+HILLTOP FAMILY DHABA — COMPLETE WEBSITE UPDATE PACKAGE
 
-## Included
-- `menu.html` — responsive 100% vegetarian menu page with search and category filters.
-- Add-to-cart buttons for each menu item, quantity controls, and live subtotal.
-- Checkout form with customer name, phone number, delivery/takeaway choice, delivery address and special instructions.
-- WhatsApp order message sent to the restaurant number configured in the page: +91 98053 41073.
-- Uses WhatsApp click-to-chat: customers must review the message and press Send. The restaurant must confirm the order; this website does not auto-confirm orders.
-- Payment is directly to the restaurant. No online payment is collected.
-- Existing logo, restaurant photos, poster, print menu and Google Maps directions are preserved.
+WHAT IS INCLUDED
+- index.html: refreshed homepage, responsive navigation, menu/contact/directions buttons, photo slider, local SEO metadata and Restaurant structured data.
+- about.html: About Us page.
+- menu.html: vegetarian menu, search/filter, selection and cart controls, quantity changes, print menu and WhatsApp order request.
+- gallery.html: responsive gallery with working image lightbox.
+- contact.html: directions, WhatsApp and Facebook contact actions.
+- style.css and script.js: shared responsive styles, mobile navigation, gallery controls and lightbox.
+- robots.txt and sitemap.xml: crawl discovery basics.
+- 404.html: helpful not-found page.
+- assets/: logo and images required by the pages.
 
-## Publish with GitHub Pages
-1. Extract the ZIP.
-2. Copy `menu.html` and the complete `assets` folder into the root of your existing website repository. Merge the assets folder carefully if it already exists.
-3. Add a navigation link such as `<a href="menu.html">Menu & Order</a>` to your existing homepage.
-4. Commit and push to GitHub, then check the published `/menu.html` page.
+INSTALL
+1. Download and extract this ZIP.
+2. Open the repository https://github.com/deshrajthakur/Hilltop-Family-Dhaba
+3. Upload all files/folders in this package to the repository root (same level as existing index.html) and choose to replace matching files. Keep all asset files/folders.
+4. In GitHub, open Settings > Pages and confirm deploy source is main branch and /(root).
+5. After deployment, test every page and button on a phone and desktop.
 
-## Important before publishing
-- Menu dishes and prices are sample values. Confirm every dish and price with the restaurant before taking real orders.
-- Subtotal excludes any delivery fee or taxes; confirm these with customers on WhatsApp.
-- The site opens WhatsApp but does not store orders in a database or send them automatically. Orders are submitted only when the customer presses Send in WhatsApp.
-- Restaurant WhatsApp is configured as +91 98053 41073. Change `WHATSAPP_NUMBER` in the script if needed (digits only, with country code).
+SEO NOTES
+- Sitemap and canonical URLs are configured for https://deshrajthakur.github.io/Hilltop-Family-Dhaba/. If your actual Pages URL differs, update canonical/og URLs in each HTML file and sitemap.xml/robots.txt.
+- SEO cannot guarantee a #1 ranking. Connect the domain/site in Google Search Console, submit sitemap.xml, and keep the Google Business Profile details consistent with the real business.
+- Only publish accurate opening hours, address details, phone, prices, and service claims. Menu prices in menu.html are sample prices and must be verified before publishing.
+- WhatsApp checkout opens a pre-filled message; customers must press Send, and the restaurant must confirm availability, price and delivery/pickup. It is not an automatic payment or order-management system.
+
+IMPORTANT GITHUB STATUS
+The connected GitHub integration returned HTTP 403 “Resource not accessible by integration” when attempting to commit. This ZIP is prepared locally; it has NOT been pushed to the live GitHub repository. Upload it manually, or reconnect GitHub with repository Contents read/write permission.
