@@ -1,25 +1,18 @@
-# Hilltop Family Dhaba Website
+# Hilltop Family Dhaba website
 
-Responsive multi-page website using the owner's supplied logo, banner and original storefront photos.
-
-## Pages
-- `index.html` — home
-- `menu.html` — services
-- `gallery.html` — original photo gallery with tap-to-expand photos
-- `contact.html` — location and Facebook contact link
+## Files
+Upload the contents of this folder to the root of your GitHub repository. Keep the `assets` folder and its contents together with the HTML, CSS and JavaScript files.
 
 ## Publish with GitHub Pages
-1. Extract this ZIP on your phone.
-2. Upload all files inside the extracted folder directly to the repository root (do not upload only the ZIP).
-3. Commit the files to the `main` branch.
-4. Open Settings → Pages.
-5. Set Source to **Deploy from a branch**, branch `main`, folder `/(root)`, then Save.
-6. After deployment, open the Pages link.
+1. Open your repository on GitHub.
+2. Upload/replace the website files and the `assets` folder.
+3. Open **Settings → Pages**.
+4. Choose **Deploy from a branch**, select `main` and `/(root)`, then save.
+5. Wait for GitHub Pages to publish.
 
-## Business information used
-- Name: Hilltop Family Dhaba
-- Location: Jarol, Sundar Nagar, Mandi, Himachal Pradesh, India
-- Services described: family dining, fresh juices and confectionery
-- Facebook: https://www.facebook.com/share/1Ls1yiACGC/
+## Business details
+Location: Jarol, Sundar Nagar, Mandi, Himachal Pradesh.
+Google Maps: https://maps.app.goo.gl/6RDyvUyQcXFgP8N29?g_st=ac
+Facebook: https://www.facebook.com/share/1Ls1yiACGC/
 
-Phone number, email, operating hours and menu prices have not been guessed. Add confirmed details when available.
+The menu includes common dhaba-style suggestions and clearly says availability must be confirmed. No unverified prices are shown. Update the menu with your exact dishes and prices when confirmed.
