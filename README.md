@@ -1,37 +1,31 @@
-Hilltop Family Dhaba
+# Hilltop Family Dhaba Website
 
-Welcome to the official website of Hilltop Family Dhaba!
+A responsive, mobile-friendly multi-page static website for GitHub Pages.
 
-Our website helps customers explore our dhaba, browse our menu, view food photos, find our location, and contact us.
+## Pages
+- `index.html` — Home
+- `menu.html` — Searchable and filterable starter menu
+- `gallery.html` — Responsive gallery with tap-to-preview lightbox
+- `contact.html` — Contact details and email-app enquiry form
+- `style.css` — Responsive design
+- `script.js` — Mobile navigation, menu filtering, gallery preview, contact form and business details
 
-Website Pages
+## Publish on GitHub Pages (mobile-friendly)
+1. Open your repository on GitHub.
+2. Upload all files in this folder to the repository root (not the ZIP file itself).
+3. Open **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select branch `main` and folder `/(root)`, then Save.
+6. Wait a few minutes for the Pages URL to become available.
 
-- Home: Introduction to Hilltop Family Dhaba.
-- Menu: Browse food items and categories.
-- Gallery: View food and restaurant photos.
-- Contact Us: Find contact details and send an enquiry.
+## IMPORTANT: customize business details
+Open `script.js` and update:
+- `phone`: phone number with country code, e.g. `+919876543210`
+- `whatsapp`: digits only with country code, e.g. `919876543210`
+- `email`: email address that should receive enquiries
+- `address`: exact restaurant address
+- `mapsUrl`: optional Google Maps directions link
 
-Website Features
+The contact form uses `mailto:` and opens the visitor's email app. GitHub Pages is static hosting, so it does not receive/store form submissions by itself. For guaranteed form delivery, connect a form service or backend.
 
-- Mobile-friendly design
-- Responsive navigation
-- Food menu with search and filters
-- Photo gallery
-- Contact form
-- Call, WhatsApp, and map links
-
-Built With
-
-- HTML
-- CSS
-- JavaScript
-
-Website Hosting
-
-This website can be published for free using GitHub Pages.
-
-Contact
-
-Visit our website for our menu, location, and contact information.
-
-Hilltop Family Dhaba — Good Food, Great Taste, Family Vibes!
+The menu items and gallery art are placeholders. Replace with the real menu, prices, logo and restaurant photos before promoting the site.
